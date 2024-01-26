@@ -10,6 +10,8 @@ public class Loan {
         return maxLoanAmount;
     }
 
+    public static String loanManager;
+
     public Loan(String borrower, int amount, double interestRate) {
         this.borrower = borrower;
         this.amount = amount;
